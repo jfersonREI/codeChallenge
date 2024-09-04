@@ -1,0 +1,122 @@
+@import "alpha-colors";
+@import "primitive-colors";
+@import "semantic-colors";
+
+// border radius
+$border-radius-none: 0px;
+$border-radius-2xs: 2px;
+$border-radius-xs: 4px;
+$border-radius-sm: 6px;
+$border-radius-md: 8px;
+$border-radius-lg: 12px;
+$border-radius-xl: 16px;
+$border-radius-2xl: 20px;
+$border-radius-3xl: 30px;
+$border-radius-full: 9999px;
+
+//border width
+$border-width-0: 0px;
+$border-width-sm: 1px;
+$border-width-md: 2px;
+$border-width-lg: 4px;
+$border-width-xl: 8px;
+
+//spacing
+$space-0: 0px;
+$space-025: 2px;
+$space-050: 4px;
+$space-075: 6px;
+$space-100: 8px;
+$space-125: 10px;
+$space-150: 12px;
+$space-200: 16px;
+$space-250: 20px;
+$space-300: 24px;
+$space-400: 32px;
+$space-500: 40px;
+$space-600: 48px;
+$space-700: 56px;
+$space-800: 64px;
+$space-900: 72px;
+
+//letter spacing
+$letter-spacing-neg-3: -0.5400000214576721px;
+$letter-spacing-neg-2: -0.30000001192092896px;
+$letter-spacing-neg-1: -0.20000000298023224px;
+$letter-spacing-auto: 0px;
+$letter-spacing-1: 0.20000000298023224px;
+$letter-spacing-2: 0.30000001192092896px;
+$letter-spacing-3: 0.5400000214576721px;
+
+$typography-font-size-text-3xs: 10px;
+$typography-font-size-text-2xs: 12px;
+$typography-font-size-text-xs: 13px;
+$typography-font-size-text-sm: 14px;
+$typography-font-size-text-base: 16px;
+$typography-font-size-text-lg: 18px;
+$typography-font-size-text-xl: 20px;
+$typography-font-size-text-2xl: 22px;
+$typography-font-size-text-3xl: 24px;
+$typography-font-size-text-4xl: 26px;
+$typography-font-size-text-5xl: 28px;
+$typography-font-size-text-6xl: 32px;
+$typography-font-size-text-7xl: 40px;
+$typography-font-size-text-8xl: 44px;
+$typography-font-size-text-9xl: 56px;
+$typography-font-size-text-10xl: 72px;
+$typography-font-size-text-11xl: 96px;
+
+$units-unit-0: 0px;
+$units-unit-1: 1px;
+$units-unit-2: 2px;
+$units-unit-4: 4px;
+$units-unit-6: 6px;
+$units-unit-8: 8px;
+$units-unit-10: 10px;
+$units-unit-12: 12px;
+$units-unit-14: 14px;
+$units-unit-16: 16px;
+$units-unit-18: 18px;
+$units-unit-20: 20px;
+$units-unit-24: 24px;
+$units-unit-28: 28px;
+$units-unit-32: 32px;
+$units-unit-36: 36px;
+$units-unit-40: 40px;
+$units-unit-44: 44px;
+$units-unit-48: 48px;
+$units-unit-56: 56px;
+$units-unit-64: 64px;
+$units-unit-72: 72px;
+$units-unit-80: 80px;
+$units-unit-88: 88px;
+$units-unit-96: 96px;
+$units-unit-112: 112px;
+$units-unit-128: 128px;
+$units-unit-144: 144px;
+$units-unit-160: 160px;
+$units-unit-176: 176px;
+$units-unit-192: 192px;
+$units-unit-208: 208px;
+$units-unit-224: 224px;
+$units-unit-240: 240px;
+$units-unit-256: 256px;
+$units-unit-288: 288px;
+$units-unit-320: 320px;
+$units-unit-384: 384px;
+
+//duration
+$duration-1-x: 0.1s;
+$duration-2-x: 0.2s;
+$duration-3-x: 0.3s;
+$duration-4-x: 0.4s;
+$duration-5-x: 0.5s;
+$duration-6-x: 0.6s;
+
+//icon sizes
+$icon-xs: 16px;
+$icon-sm: 20px;
+$icon-md: 24px;
+$icon-lg: 32px;
+$icon-xl: 48px;
+$icon-2xl: 64px;
