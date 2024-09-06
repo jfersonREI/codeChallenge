@@ -1,0 +1,11 @@
+@import "abstracts/variables";
+
+.usa-footer__primary-section {
+  background-color: #eaeaea;
+}
+.usa-footer__secondary-section {
+  background-color: $base-lighter;
+}
+.usa-footer__logo-img {
+  max-width: 16.75rem;
+}
