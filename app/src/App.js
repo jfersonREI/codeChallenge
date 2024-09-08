@@ -3,6 +3,7 @@ import AppFooter from "./components/Layout/AppFooter";
 import AppHeader from "./components/Layout/AppHeader/AppHeader";
 import AppMain from "./components/AppMain/AppMain";
 import CaseReviewHeader from "./components/CaseReviewHeader/CaseReviewHeader";
+import CaseReviewOverview from "./components/CaseReviewOverview/CaseReviewOverview";
 
 import {
   GovBanner,
@@ -19,6 +20,7 @@ export default function App() {
 
         <AppMain>
           <CaseReviewHeader />
+          <CaseReviewOverview />
 
           <SummaryBox>
             <SummaryBoxContent>

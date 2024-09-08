@@ -1,0 +1,7 @@
+@import "../../scss/abstracts/variables";
+
+.case-review-overview {
+  background-color: lighten($base-lightest, 4%);
+  border: $base-lighter $border-width-sm solid;
+  padding: $space-200;
+}
