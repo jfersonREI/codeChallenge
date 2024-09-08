@@ -4,6 +4,7 @@ import AppHeader from "./components/Layout/AppHeader/AppHeader";
 import AppMain from "./components/AppMain/AppMain";
 import CaseReviewHeader from "./components/CaseReviewHeader/CaseReviewHeader";
 import CaseReviewOverview from "./components/CaseReviewOverview/CaseReviewOverview";
+import CaseExpandButton from "./components/CaseExpandButton/CaseExpandButton";
 
 import {
   GovBanner,
@@ -21,6 +22,9 @@ export default function App() {
         <AppMain>
           <CaseReviewHeader />
           <CaseReviewOverview />
+
+          <CaseExpandButton label="Case summary" expanded="false" />
+          <CaseExpandButton label="Case comments" expanded="true" />
 
           <SummaryBox>
             <SummaryBoxContent>

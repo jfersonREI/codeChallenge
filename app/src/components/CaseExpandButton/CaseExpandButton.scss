@@ -1,0 +1,41 @@
+@import "../../scss/abstracts/variables";
+
+.case-expand-button {
+  background-color: $base-lightest;
+  border: $border-width-sm $base-lighter solid;
+  padding: $space-200;
+  display: flex;
+  align-items: center;
+  flex-flow: row nowrap;
+  gap: $space-075;
+  border-radius: 0;
+  box-shadow: none;
+  cursor: pointer;
+  color: $ink;
+
+  &::before {
+    background-color: currentColor;
+    mask-image: url(../../assets/icons/icon-chevron-down.svg);
+    background-repeat: no-repeat;
+    background-size: 1.5rem;
+    width: 24px;
+    height: 24px;
+    display: block;
+    content: "";
+  }
+
+  &__label {
+    font-weight: $font-weight-semibold;
+  }
+  &:hover {
+    background-color: lighten($base-lightest, 4%);
+    color: $ink;
+  }
+
+  &[aria-expanded="false"] {
+    background-color: $white;
+    &::before {
+      mask-image: url(../../assets/icons/icon-chevron-right.svg);
+    }
+  }
+}
