@@ -6,6 +6,7 @@
   align-items: center;
   justify-content: space-between;
   gap: $space-300;
+  flex-flow: row wrap;
   &__details {
     display: flex;
     flex-flow: column wrap;
