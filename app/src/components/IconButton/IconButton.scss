@@ -25,7 +25,7 @@
 
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  width: 100%;
+  width: auto;
 
   &--focus {
     outline: 0.25rem solid #2491ff;
@@ -36,24 +36,7 @@
     outline-offset: 0.25rem;
   }
   &:hover {
-    color: $base-darkest;
-  }
-  &:disabled {
-    background-color: $disabled;
-    color: #fff;
-    pointer-events: none;
-  }
-  //
-  svg-icon,
-  svg,
-  img {
-    display: block;
-    width: 1.5rem;
-    height: 1.5rem;
-    fill: currentColor;
-  }
-  &:hover {
-    background-color: transparent;
+    background-color: $base-lightest;
     color: $primary;
   }
   &:active {
@@ -65,6 +48,15 @@
     color: #fff;
     pointer-events: none;
   }
+  //
+  svg,
+  img {
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+    fill: currentColor;
+  }
+
   &--sm {
     padding: 0.4375rem;
     svg,

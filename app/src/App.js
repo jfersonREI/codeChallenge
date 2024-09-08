@@ -2,6 +2,7 @@ import React from "react";
 import AppFooter from "./components/Layout/AppFooter";
 import AppHeader from "./components/Layout/AppHeader/AppHeader";
 import AppMain from "./components/AppMain/AppMain";
+import CaseReviewHeader from "./components/CaseReviewHeader/CaseReviewHeader";
 
 import {
   GovBanner,
@@ -17,6 +18,8 @@ export default function App() {
         <AppHeader />
 
         <AppMain>
+          <CaseReviewHeader />
+
           <SummaryBox>
             <SummaryBoxContent>
               You'll need to know:
@@ -25,7 +28,7 @@ export default function App() {
                 Identification Number (ITIN).
               </p>
             </SummaryBoxContent>
-          </SummaryBox>{" "}
+          </SummaryBox>
           <br />
           <br />
           <br />

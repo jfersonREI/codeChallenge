@@ -1,0 +1,31 @@
+@import "../../scss/abstracts/variables";
+@import "../../scss/abstracts/mixins";
+
+.case-review-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: $space-300;
+  &__details {
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1;
+    gap: $space-050;
+    min-width: 0;
+  }
+  &__title {
+    font-weight: $font-weight-bold;
+    font-size: $font-size-text-2xl;
+  }
+  &__description {
+    font-size: $font-size-text-base;
+    font-weight: $font-weight-regular;
+    @include truncateText;
+    width: 100%;
+  }
+  &__actions {
+    display: flex;
+    align-items: center;
+    gap: $space-100;
+  }
+}

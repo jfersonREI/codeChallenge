@@ -2,6 +2,7 @@ import React from "react";
 import { ReactComponent as HeaderLogoImage } from "../../../assets/uscis-logo.svg";
 import AvatarText from "../../Avatar/AvatarText";
 import IconButton from "../../IconButton/IconButton";
+import { ReactComponent as IconBellOutline } from "../../../assets/icons/icon-bell-outline.svg";
 import "./AppHeader.scss";
 
 import { Button } from "@trussworks/react-uswds";
@@ -23,7 +24,7 @@ function AppHeader() {
                   <Button>ELIS Assistant</Button>
                 </li>
                 <li className="app-header-action-list__item">
-                  <IconButton />
+                  <IconButton label="Alerts" icon={<IconBellOutline />} />
                 </li>
                 <li className="app-header-action-list__item">
                   <AvatarText />
