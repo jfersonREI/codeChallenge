@@ -1,6 +1,7 @@
 import React from "react";
 import AppFooter from "./components/Layout/AppFooter";
 import AppHeader from "./components/Layout/AppHeader/AppHeader";
+import AppMain from "./components/AppMain/AppMain";
 
 import {
   GovBanner,
@@ -15,36 +16,39 @@ export default function App() {
         <GovBanner />
         <AppHeader />
 
-        <SummaryBox>
-          <SummaryBoxContent>
-            You'll need to know:
-            <p>
-              Your Social Security Number (SSN) or your Individual Tax
-              Identification Number (ITIN).
-            </p>
-          </SummaryBoxContent>
-        </SummaryBox>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
+        <AppMain>
+          <SummaryBox>
+            <SummaryBoxContent>
+              You'll need to know:
+              <p>
+                Your Social Security Number (SSN) or your Individual Tax
+                Identification Number (ITIN).
+              </p>
+            </SummaryBoxContent>
+          </SummaryBox>{" "}
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+        </AppMain>
+
         <AppFooter />
       </div>
     </div>

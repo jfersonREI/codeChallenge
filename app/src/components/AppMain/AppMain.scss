@@ -1,0 +1,8 @@
+@import "../../scss/abstracts/variables";
+
+.app-main {
+  margin: $space-300 0;
+  .grid-container {
+    max-width: 100%;
+  }
+}
