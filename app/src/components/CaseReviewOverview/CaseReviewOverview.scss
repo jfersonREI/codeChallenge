@@ -3,7 +3,7 @@
 .case-review-overview {
   background-color: lighten($base-lightest, 4%);
   border: $base-lighter $border-width-sm solid;
-  padding: $space-200;
+  padding: $space-300;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   row-gap: $space-200;
@@ -21,5 +21,22 @@
 
   &__col {
     background-color: transparent;
+    display: flex;
+    flex-flow: column wrap;
+    gap: $space-200;
+    color: $ink;
+  }
+  &__info-block {
+    display: flex;
+    flex-flow: column wrap;
+    gap: $space-050;
+  }
+  &__info-label {
+    font-weight: $font-weight-bold;
+    font-size: $font-size-text-base;
+  }
+  &__info-value {
+    font-weight: $font-weight-regular;
+    font-size: $font-size-text-base;
   }
 }
