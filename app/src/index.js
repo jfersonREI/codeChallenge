@@ -1,8 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "../node_modules/@trussworks/react-uswds/lib/uswds.css";
-import "../node_modules/@trussworks/react-uswds/lib/index.css";
+import "@trussworks/react-uswds/lib/uswds.css";
+import "@trussworks/react-uswds/lib/index.css";
 import "./scss/main.scss";
+
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 

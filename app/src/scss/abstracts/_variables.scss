@@ -136,3 +136,54 @@ $avatar-size-md: 40px;
 $avatar-size-lg: 56px;
 $avatar-size-xl: 72px;
 $avatar-size-2xl: 96px;
+
+//breakpoints
+$breakpoint-card: 160px;
+$breakpoint-card-lg: 240px;
+$breakpoint-mobile: 320px;
+$breakpoint-mobile-lg: 480px;
+$breakpoint-tablet: 640px;
+$breakpoint-tablet-lg: 880px;
+$breakpoint-desktop: 1024px;
+$breakpoint-desktop-lg: 1200px;
+$breakpoint-widescreen: 1400px;
+
+@mixin breakpoint($point) {
+  @if $point == card {
+    @media (min-width: $breakpoint-card) {
+      @content;
+    }
+  } @else if $point == card-lg {
+    @media (min-width: $breakpoint-card-lg) {
+      @content;
+    }
+  } @else if $point == mobile {
+    @media (min-width: $breakpoint-mobile) {
+      @content;
+    }
+  } @else if $point == mobile-lg {
+    @media (min-width: $breakpoint-mobile-lg) {
+      @content;
+    }
+  } @else if $point == tablet {
+    @media (min-width: $breakpoint-tablet) {
+      @content;
+    }
+  } @else if $point == tablet-lg {
+    @media (min-width: $breakpoint-tablet-lg) {
+      @content;
+    }
+  } @else if $point == desktop {
+    @media (min-width: $breakpoint-desktop) {
+      @content;
+    }
+  } @else if $point == desktop-lg {
+    @media (min-width: $breakpoint-desktop-lg) {
+      @content;
+    }
+  } @else if $point == widescreen {
+    @media (min-width: $breakpoint-widescreen) {
+      @content;
+    }
+  }
+}

@@ -1,5 +1,45 @@
 @import "abstracts/variables";
 
+.usa-banner__inner {
+  max-width: 100%;
+}
+
+.usa-footer {
+  .grid-container,
+  .usa-footer__nav {
+    max-width: 100%;
+  }
+  .usa-footer__primary-link {
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+      color: $primary;
+    }
+  }
+}
+.usa-identifier {
+  &__container {
+    max-width: 100%;
+  }
+  .usa-identifier__logo {
+    height: auto;
+  }
+  .usa-identifier__identity-domain {
+    color: $white;
+  }
+  .usa-identifier__required-link,
+  .usa-identifier__required-link.usa-link:visited {
+    color: $alpha-white-70;
+    &:hover {
+      color: $white;
+    }
+  }
+  .usa-link,
+  .usa-identifier__identity-disclaimer a,
+  .usa-identifier__identity-disclaimer a:visited {
+    color: $alpha-white-80;
+  }
+}
 .usa-footer__primary-section {
   background-color: #eaeaea;
 }

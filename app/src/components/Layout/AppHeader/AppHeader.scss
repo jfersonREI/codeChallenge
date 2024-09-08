@@ -1,0 +1,55 @@
+@import "../../../scss/abstracts/variables";
+
+.app-header {
+  background-color: $white;
+  padding: $space-200 0;
+  box-shadow: 0px 2px 6px 0px $alpha-black-10;
+
+  .grid-container {
+    max-width: 100%;
+  }
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    background-color: transparent;
+  }
+  &__logo-link {
+    display: block;
+  }
+  &__logo-image {
+    display: block;
+    max-height: 80px;
+    width: auto;
+    @include breakpoint(mobile) {
+      max-height: 40px;
+    }
+    @include breakpoint(tablet) {
+      max-height: 60px;
+    }
+    @include breakpoint(desktop) {
+      max-height: 80px;
+    }
+  }
+  &__actions {
+    background-color: transparent;
+  }
+}
+
+.app-header-action-list {
+  display: flex;
+  align-items: center;
+  gap: $space-100;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  &__item {
+    margin: 0;
+    padding: 0;
+  }
+}
