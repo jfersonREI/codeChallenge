@@ -9,6 +9,7 @@ import CaseExpandButton from "./components/CaseExpandButton/CaseExpandButton";
 import CaseExpandContent from "./components/CaseExpandContent/CaseExpandContent";
 import CaseExpandSectionHeader from "./components/CaseExpandSectionHeader/CaseExpandSectionHeader";
 import CaseFieldGroup from "./components/CaseFieldGroup/CaseFieldGroup";
+import CaseFieldInfoBlock from "./components/CaseFieldInfoBlock/CaseFieldInfoBlock";
 
 import Divider from "./components/Divider/Divider";
 
@@ -30,16 +31,46 @@ export default function App() {
             <CaseExpandContent>
               <CaseExpandSectionHeader label="Company information"></CaseExpandSectionHeader>
               <CaseFieldGroup>
-                <span>111</span>
-                <span>222</span>
+                <CaseFieldInfoBlock label="Company name" value="Unspecified" />
+                <CaseFieldInfoBlock
+                  label="Federal employer identification number  (FEIN)"
+                  value="541234444"
+                />
               </CaseFieldGroup>
               <Divider />
               <CaseFieldGroup>
-                <span>333</span>
+                <CaseFieldInfoBlock
+                  label="Requested nonimmigrant classification"
+                  value="H2A"
+                />
               </CaseFieldGroup>
               <Divider />
-              nnn
+              <CaseFieldGroup>
+                <CaseFieldInfoBlock
+                  label="Requested action"
+                  value="A - Notify the office in part 4, so each beneficiary can obtain a visa or be admitted"
+                />
+                <CaseFieldInfoBlock
+                  label="Total number of employees"
+                  value="10"
+                />
+                <CaseFieldInfoBlock
+                  label="Basis for classification"
+                  value="A - New employment"
+                />{" "}
+                <CaseFieldInfoBlock
+                  label="Basis for classification"
+                  value="A - New employment"
+                />
+              </CaseFieldGroup>
               <CaseExpandSectionHeader label="Petition information"></CaseExpandSectionHeader>
+              <CaseFieldGroup>
+                <CaseFieldInfoBlock label="Company name" value="Unspecified" />
+                <CaseFieldInfoBlock
+                  label="Federal employer identification number  (FEIN)"
+                  value="541234444"
+                />
+              </CaseFieldGroup>
             </CaseExpandContent>
 
             <CaseExpandButton label="Evidence" expanded="false" />

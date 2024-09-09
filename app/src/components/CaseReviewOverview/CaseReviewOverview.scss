@@ -4,7 +4,7 @@
 .case-review-overview {
   background-color: lighten($base-lightest, 4%);
   border: $base-lighter $border-width-sm solid;
-  padding: $space-300;
+  padding: $space-400 $space-300;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   row-gap: $space-200;
@@ -30,10 +30,10 @@
   &__info-block {
     display: flex;
     flex-flow: column wrap;
-    gap: $space-050;
+    gap: $space-075;
   }
   &__info-label {
-    font-weight: $font-weight-bold;
+    font-weight: $font-weight-semibold;
     font-size: $font-size-text-base;
   }
   &__info-value {
