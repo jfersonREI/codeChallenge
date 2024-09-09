@@ -29,7 +29,7 @@
     font-weight: $font-weight-semibold;
   }
   &:hover {
-    background-color: lighten($base-lightest, 4%);
+    background-color: lighten($base-lightest, 2%);
     color: $ink;
   }
 
@@ -37,6 +37,9 @@
     background-color: $white;
     &::before {
       mask-image: url(../../assets/icons/icon-chevron-right.svg);
+    }
+    &:hover {
+      background-color: lighten($base-lightest, 4%);
     }
   }
 
