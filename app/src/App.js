@@ -8,6 +8,7 @@ import CaseExpand from "./components/CaseExpand/CaseExpand";
 import CaseExpandButton from "./components/CaseExpandButton/CaseExpandButton";
 import CaseExpandContent from "./components/CaseExpandContent/CaseExpandContent";
 import CaseExpandSectionHeader from "./components/CaseExpandSectionHeader/CaseExpandSectionHeader";
+import CaseFieldGroup from "./components/CaseFieldGroup/CaseFieldGroup";
 
 import Divider from "./components/Divider/Divider";
 
@@ -28,10 +29,15 @@ export default function App() {
             <CaseExpandButton label="Case comments" expanded="true" />
             <CaseExpandContent>
               <CaseExpandSectionHeader label="Company information"></CaseExpandSectionHeader>
-              sss
-              <Divider color="#dfe1e2" />
-              mmm
-              <Divider color="#dfe1e2" />
+              <CaseFieldGroup>
+                <span>111</span>
+                <span>222</span>
+              </CaseFieldGroup>
+              <Divider />
+              <CaseFieldGroup>
+                <span>333</span>
+              </CaseFieldGroup>
+              <Divider />
               nnn
               <CaseExpandSectionHeader label="Petition information"></CaseExpandSectionHeader>
             </CaseExpandContent>
