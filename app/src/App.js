@@ -7,6 +7,7 @@ import CaseReviewOverview from "./components/CaseReviewOverview/CaseReviewOvervi
 import CaseExpand from "./components/CaseExpand/CaseExpand";
 import CaseExpandButton from "./components/CaseExpandButton/CaseExpandButton";
 import CaseExpandContent from "./components/CaseExpandContent/CaseExpandContent";
+import CaseExpandSectionHeader from "./components/CaseExpandSectionHeader/CaseExpandSectionHeader";
 
 import { GovBanner } from "@trussworks/react-uswds";
 
@@ -23,7 +24,13 @@ export default function App() {
           <CaseExpand>
             <CaseExpandButton label="Case summary" expanded="false" />
             <CaseExpandButton label="Case comments" expanded="true" />
-            <CaseExpandContent>sss</CaseExpandContent>
+            <CaseExpandContent>
+              <CaseExpandSectionHeader label="Summary"></CaseExpandSectionHeader>
+              sss
+            </CaseExpandContent>
+
+            <CaseExpandButton label="Evidence" expanded="false" />
+            <CaseExpandButton label="Decision" expanded="false" />
           </CaseExpand>
           <br />
           <br />

@@ -3,7 +3,9 @@ import "./CaseExpandContent.scss";
 function CaseExpandContent(props) {
   return (
     <div className="case-expand-content">
-      <div className="case-expand-content__content">{props.children}</div>
+      <div className="case-expand-content__content-region">
+        {props.children}
+      </div>
     </div>
   );
 }
