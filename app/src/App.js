@@ -4,13 +4,11 @@ import AppHeader from "./components/Layout/AppHeader/AppHeader";
 import AppMain from "./components/AppMain/AppMain";
 import CaseReviewHeader from "./components/CaseReviewHeader/CaseReviewHeader";
 import CaseReviewOverview from "./components/CaseReviewOverview/CaseReviewOverview";
+import CaseExpand from "./components/CaseExpand/CaseExpand";
 import CaseExpandButton from "./components/CaseExpandButton/CaseExpandButton";
+import CaseExpandContent from "./components/CaseExpandContent/CaseExpandContent";
 
-import {
-  GovBanner,
-  SummaryBox,
-  SummaryBoxContent,
-} from "@trussworks/react-uswds";
+import { GovBanner } from "@trussworks/react-uswds";
 
 export default function App() {
   return (
@@ -22,19 +20,11 @@ export default function App() {
         <AppMain>
           <CaseReviewHeader />
           <CaseReviewOverview />
-
-          <CaseExpandButton label="Case summary" expanded="false" />
-          <CaseExpandButton label="Case comments" expanded="true" />
-
-          <SummaryBox>
-            <SummaryBoxContent>
-              You'll need to know:
-              <p>
-                Your Social Security Number (SSN) or your Individual Tax
-                Identification Number (ITIN).
-              </p>
-            </SummaryBoxContent>
-          </SummaryBox>
+          <CaseExpand>
+            <CaseExpandButton label="Case summary" expanded="false" />
+            <CaseExpandButton label="Case comments" expanded="true" />
+            <CaseExpandContent>sss</CaseExpandContent>
+          </CaseExpand>
           <br />
           <br />
           <br />

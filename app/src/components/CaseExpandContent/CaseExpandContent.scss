@@ -1,0 +1,14 @@
+@import "../../scss/abstracts/variables";
+
+.case-expand-content {
+  border: $border-width-sm $base-lighter solid;
+  border-top: 0;
+
+  background-color: $base-lightest;
+  padding: 0 4px 4px 4px;
+
+  &__content {
+    background-color: $white;
+    padding: $space-300;
+  }
+}

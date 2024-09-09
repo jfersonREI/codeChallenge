@@ -12,6 +12,7 @@
   box-shadow: none;
   cursor: pointer;
   color: $ink;
+  width: 100%;
 
   &::before {
     background-color: currentColor;
@@ -37,5 +38,9 @@
     &::before {
       mask-image: url(../../assets/icons/icon-chevron-right.svg);
     }
+  }
+
+  &:not(:first-child) {
+    margin-top: $space-150;
   }
 }
