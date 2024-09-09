@@ -27,13 +27,13 @@ export default function App() {
             <CaseExpandButton label="Case summary" expanded="false" />
             <CaseExpandButton label="Case comments" expanded="true" />
             <CaseExpandContent>
-              <CaseExpandSectionHeader label="Summary"></CaseExpandSectionHeader>
+              <CaseExpandSectionHeader label="Company information"></CaseExpandSectionHeader>
               sss
               <Divider color="#dfe1e2" />
               mmm
               <Divider color="#dfe1e2" />
               nnn
-              <CaseExpandSectionHeader label="Moop"></CaseExpandSectionHeader>
+              <CaseExpandSectionHeader label="Petition information"></CaseExpandSectionHeader>
             </CaseExpandContent>
 
             <CaseExpandButton label="Evidence" expanded="false" />
