@@ -9,6 +9,8 @@ import CaseExpandButton from "./components/CaseExpandButton/CaseExpandButton";
 import CaseExpandContent from "./components/CaseExpandContent/CaseExpandContent";
 import CaseExpandSectionHeader from "./components/CaseExpandSectionHeader/CaseExpandSectionHeader";
 
+import Divider from "./components/Divider/Divider";
+
 import { GovBanner } from "@trussworks/react-uswds";
 
 export default function App() {
@@ -27,6 +29,11 @@ export default function App() {
             <CaseExpandContent>
               <CaseExpandSectionHeader label="Summary"></CaseExpandSectionHeader>
               sss
+              <Divider color="#dfe1e2" />
+              mmm
+              <Divider color="#dfe1e2" />
+              nnn
+              <CaseExpandSectionHeader label="Moop"></CaseExpandSectionHeader>
             </CaseExpandContent>
 
             <CaseExpandButton label="Evidence" expanded="false" />
