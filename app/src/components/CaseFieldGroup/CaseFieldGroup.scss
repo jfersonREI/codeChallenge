@@ -17,6 +17,6 @@
     grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
   }
   @include breakpoint(widescreen) {
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(36rem, 1fr));
   }
 }

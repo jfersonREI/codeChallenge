@@ -13,7 +13,13 @@ import CaseFieldInfoBlock from "./components/CaseFieldInfoBlock/CaseFieldInfoBlo
 
 import Divider from "./components/Divider/Divider";
 
-import { GovBanner } from "@trussworks/react-uswds";
+import {
+  GovBanner,
+  FormGroup,
+  Label,
+  Select,
+  Textarea,
+} from "@trussworks/react-uswds";
 
 export default function App() {
   return (
@@ -71,6 +77,27 @@ export default function App() {
                   value="541234444"
                 />
               </CaseFieldGroup>
+              <CaseExpandSectionHeader label="Form example"></CaseExpandSectionHeader>
+              <FormGroup>
+                <Label htmlFor="input-select">Select decision</Label>
+                <Select id="input-select" name="input-select">
+                  <option>- Select - </option>
+                  <option value="value1">Option A</option>
+                  <option value="value2">Option B</option>
+                  <option value="value3">Option C</option>
+                  <option value="valueBIG">
+                    Option of extra length to demonstrate how content like this
+                    will look different
+                  </option>
+                </Select>
+              </FormGroup>
+
+              <FormGroup>
+                <Label htmlFor="input-textarea" hint={<> (optional)</>}>
+                  Decision notes
+                </Label>
+                <Textarea id="input-textarea" name="input-textarea" />
+              </FormGroup>
             </CaseExpandContent>
 
             <CaseExpandButton label="Evidence" expanded="false" />

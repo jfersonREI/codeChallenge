@@ -27,6 +27,8 @@
 
   &__label {
     font-weight: $font-weight-semibold;
+    font-size: $font-size-text-base;
+    line-height: 1.3;
   }
   &:hover {
     background-color: lighten($base-lightest, 2%);

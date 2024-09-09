@@ -3,6 +3,9 @@ import IconButton from "../IconButton/IconButton";
 import { ReactComponent as IconAdditional } from "../../assets/icons/icon-additional.svg";
 
 function CaseReviewHeader() {
+  function sayClick() {
+    alert("Click!");
+  }
   return (
     <div className="case-review-header">
       <div className="case-review-header__details">
@@ -15,7 +18,11 @@ function CaseReviewHeader() {
       </div>
       <div className="case-review-header__actions">
         <button>Open evidence</button>
-        <IconButton label="More actions" icon={<IconAdditional />} />
+        <IconButton
+          label="More actions"
+          icon={<IconAdditional />}
+          onClick={sayClick}
+        />
       </div>
     </div>
   );

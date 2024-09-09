@@ -10,5 +10,14 @@
   &__content-region {
     background-color: $white;
     padding: $space-300 $space-300 $space-500 $space-300;
+
+    .usa-textarea,
+    .usa-range,
+    .usa-input-group,
+    .usa-combo-box__input,
+    .usa-select,
+    .usa-input {
+      max-width: 100%;
+    }
   }
 }
