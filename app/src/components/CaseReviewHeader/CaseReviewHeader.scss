@@ -15,11 +15,11 @@
     min-width: 0;
   }
   &__title {
-    font-weight: $font-weight-bold;
-    font-size: $font-size-text-2xl;
+    font-weight: $font-weight-semibold;
+    font-size: $font-size-text-lg;
   }
   &__description {
-    font-size: $font-size-text-base;
+    font-size: $font-size-text-md;
     font-weight: $font-weight-regular;
     @include truncateText;
     width: 100%;
