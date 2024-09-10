@@ -1,6 +1,7 @@
 import "./CaseReviewHeader.scss";
 import IconButton from "../IconButton/IconButton";
 import { ReactComponent as IconAdditional } from "../../assets/icons/icon-additional.svg";
+import { Button } from "@trussworks/react-uswds";
 
 function CaseReviewHeader() {
   function sayClick() {
@@ -17,7 +18,7 @@ function CaseReviewHeader() {
         </div>
       </div>
       <div className="case-review-header__actions">
-        <button>Open evidence</button>
+        <Button type="button">Open evidence</Button>
         <IconButton
           label="More actions"
           icon={<IconAdditional />}

@@ -29,4 +29,20 @@
     align-items: center;
     gap: $space-100;
   }
+
+  .usa-button {
+    font-size: $font-size-text-base;
+    font-weight: $font-weight-semibold;
+    background-color: $white;
+    color: $ink;
+    border: $base-light $border-width-sm solid;
+    margin-right: 0;
+
+    &:hover,
+    &.usa-button--hover {
+      color: $ink;
+      background-color: $base-lightest;
+      text-decoration: none;
+    }
+  }
 }
