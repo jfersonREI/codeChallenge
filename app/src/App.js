@@ -103,27 +103,6 @@ export default function App() {
             <CaseExpandButton label="Evidence" expanded="false" />
             <CaseExpandButton label="Decision" expanded="false" />
           </CaseExpand>
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
         </AppMain>
 
         <AppFooter />
