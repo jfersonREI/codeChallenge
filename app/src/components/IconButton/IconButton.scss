@@ -37,11 +37,11 @@
   }
   &:hover {
     background-color: $base-lightest;
-    color: $primary;
+    color: $ink;
   }
   &:active {
     background-color: transparent;
-    color: $primary;
+    color: $ink;
   }
   &:disabled {
     background-color: $disabled;
