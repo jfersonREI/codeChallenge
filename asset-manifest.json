@@ -1,23 +1,28 @@
 {
   "files": {
-    "main.css": "/codeChallenge/static/css/main.4ac1a32f.css",
-    "main.js": "/codeChallenge/static/js/main.c56686f4.js",
+    "main.css": "/codeChallenge/static/css/main.0f7523eb.css",
+    "main.js": "/codeChallenge/static/js/main.a6804168.js",
     "static/js/453.a6a97343.chunk.js": "/codeChallenge/static/js/453.a6a97343.chunk.js",
     "static/media/jpg": "/codeChallenge/static/media/fdfa1c365bb151847b2c.fdfa1c365bb151847b2c.jpg",
     "static/media/dhs-seal.svg": "/codeChallenge/static/media/dhs-seal.9887949c473a48c326745f680f38ecd0.svg",
     "static/media/uscis-logo.svg": "/codeChallenge/static/media/uscis-logo.3ba6e7bb8574b1feb5bc9e39ce98af69.svg",
     "static/media/woff2": "/codeChallenge/static/media/936869ba46988c238748.936869ba46988c238748.woff2",
+    "static/media/work-log.svg": "/codeChallenge/static/media/work-log.ee8901ade98af2001f03259f29cc5f3e.svg",
+    "static/media/elis-dashboard.svg": "/codeChallenge/static/media/elis-dashboard.eeba538572f8b18dbf1a644fada5d9d7.svg",
+    "static/media/elis-connection.svg": "/codeChallenge/static/media/elis-connection.fd1a5f5e5774f96bc15ba3687405dc69.svg",
+    "static/media/elis-user-manual.svg": "/codeChallenge/static/media/elis-user-manual.c4bd0899d3b21d00215131555129266b.svg",
     "static/media/icon-additional.svg": "/codeChallenge/static/media/icon-additional.b1659dd4127406276e1643000a056c20.svg",
     "index.html": "/codeChallenge/index.html",
     "static/media/icon-bell-outline.svg": "/codeChallenge/static/media/icon-bell-outline.5f3e63534b0a914d7e7b0b03f792d519.svg",
+    "static/media/launch.svg": "/codeChallenge/static/media/launch.ff08dd7d9da322db90ab.svg",
     "static/media/icon-chevron-right.svg": "/codeChallenge/static/media/icon-chevron-right.0b2882350cdcf3c4c090.svg",
     "static/media/icon-chevron-down.svg": "/codeChallenge/static/media/icon-chevron-down.35861e926300a3ed0d60.svg",
-    "main.4ac1a32f.css.map": "/codeChallenge/static/css/main.4ac1a32f.css.map",
-    "main.c56686f4.js.map": "/codeChallenge/static/js/main.c56686f4.js.map",
+    "main.0f7523eb.css.map": "/codeChallenge/static/css/main.0f7523eb.css.map",
+    "main.a6804168.js.map": "/codeChallenge/static/js/main.a6804168.js.map",
     "453.a6a97343.chunk.js.map": "/codeChallenge/static/js/453.a6a97343.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ac1a32f.css",
-    "static/js/main.c56686f4.js"
+    "static/css/main.0f7523eb.css",
+    "static/js/main.a6804168.js"
   ]
 }
