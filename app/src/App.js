@@ -114,28 +114,6 @@ export default function App() {
         </AppMain>
 
         <AppFooter />
-
-        <br />
-        <br />
-        <DashButtons>
-          <DashButton
-            icon={<DashIconWorkLog />}
-            label="My completed work log"
-          />
-          <DashButton icon={<DashIconDashboard />} label="ELIS dashboard" />
-          <DashButton
-            icon={<DashIconElisConnection />}
-            label="ELIS connection"
-          />
-          <DashButton
-            icon={<DashIconElisUserManual />}
-            label="ELIS user manual"
-            isExternal
-          />
-        </DashButtons>
-
-        <br />
-        <br />
       </div>
     </div>
   );
