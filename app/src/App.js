@@ -21,14 +21,6 @@ import {
   Textarea,
 } from "@trussworks/react-uswds";
 
-import DashButtons from "./components/DashButtons/DashButtons";
-import DashButton from "./components/DashButton/DashButton";
-
-import { ReactComponent as DashIconWorkLog } from "./assets/app-home/work-log.svg";
-import { ReactComponent as DashIconDashboard } from "./assets/app-home/elis-dashboard.svg";
-import { ReactComponent as DashIconElisConnection } from "./assets/app-home/elis-connection.svg";
-import { ReactComponent as DashIconElisUserManual } from "./assets/app-home/elis-user-manual.svg";
-
 export default function App() {
   return (
     <div className="app">
